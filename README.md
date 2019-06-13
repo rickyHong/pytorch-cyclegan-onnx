@@ -222,3 +222,6 @@ If you love cats, and love reading cool graphics, vision, and learning papers, p
 
 ## Acknowledgments
 Our code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
+
+## ONNX
+https://github.com/pytorch/pytorch/issues/4584
