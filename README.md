@@ -226,3 +226,6 @@ Our code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree
 ## ONNX
 https://github.com/pytorch/pytorch/issues/4584 (CycleGan)
 https://stackoverflow.com/questions/51605747/errors-converting-pytorch-unet-tiramisu-into-coreml-via-onnx (UNET)
+
+## Pytorch Layers
+https://pytorch.org/docs/stable/nn.html#
