@@ -64,3 +64,7 @@ if __name__ == '__main__':
             print('processing (%04d)-th image... %s' % (i, img_path))
         save_images(webpage, visuals, img_path, aspect_ratio=opt.aspect_ratio, width=opt.display_winsize)
     webpage.save()  # save the HTML
+    
+    # network .. DataParallel (remove)
+    inputs = Variable(torch.randn(1,3,256,256)).cuda()
+    torch.onnx.export(model.netG, inputs, "latest_net_G.onnx")
